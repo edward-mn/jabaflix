@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Logo from '../../assets/img/Logo.svg';
 import './Menu.css';
 import Button from '../Button';
@@ -9,11 +10,11 @@ import Button from '../Button';
 function Menu(){ // Todo componente deve começar com letra maiúscula //
   return(
     <nav className="Menu">
-      <a href="/">
+      <Link to="/">
         <img className="Logo" src={Logo} alt="Jabaflix logo" />
-      </a>
+      </Link>
 
-      <Button as="a" className="ButtonLink" href="/">
+      <Button as={Link} className="ButtonLink" to="/cadastro/video">
         Novo vídeo
       </Button>
     </nav>

@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 // Acessando a tag a através da sytle  - Tag button está em tag de templete string - & utiliza para referencias a própria classe //
+
+// Caso houver a necessidade de alterar a tag para um valor dinâmico, podemos alterar para styled(componente) - styled(Link) //
 const Button = styled.button` 
   color: var(--white);
   border: 1px solid var(--white);
