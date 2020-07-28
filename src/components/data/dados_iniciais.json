@@ -1,123 +1,158 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Ufologia",
+      "link": "https://pt.wikipedia.org/wiki/Ufologia",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Saiba mais clicando aqui...",
+        "url": "https://www.youtube.com/watch?v=BGHYBA5-euU&list=PLQtKWvsWFC-CgjsQyJdKU01rinWeXlTAo"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Os segredos mais surpreendentes da NASA | Segredos da NASA",
+          "url": "https://www.youtube.com/watch?v=BGHYBA5-euU&list=PLQtKWvsWFC-CgjsQyJdKU01rinWeXlTAo"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Flow Podcast #48 - EDISON BOAVENTURA (UFÓLOGO)",
+          "url": "https://www.youtube.com/watch?v=55pw5A8h1HU"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "O PRÓXIMO REINO - A História do Amanhã | DOCUMENTÁRIO",
+          "url": "https://www.youtube.com/watch?v=hoJg83xuvUM"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Ufologia - Todo Seu",
+          "url": "https://www.youtube.com/watch?v=KzyXOCWkSFI"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Trindade da Ufologia - The Noite",
+          "url": "https://www.youtube.com/watch?v=kYEJze6zy5s"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Entrevista com Giorgio Tsoukalos",
+          "url": "https://www.youtube.com/watch?v=erZ3EHA6EkE"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "ETS / ALIENÍGENAS - Nostalgia",
+          "url": "https://www.youtube.com/watch?v=TQvLdtZykQ4"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Aliens | Nerdologia",
+          "url": "https://www.youtube.com/watch?v=8r1nJtM2IPo"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Documentários",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Mais documentários aqui...",
+        "url": "https://www.metropoles.com/entretenimento/cinema/documentario-que-comprova-vida-extraterrestre-bomba-no-youtube?amp"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Bob Lazar: Area 51 And Flying Saucers",
+          "url": "https://www.youtube.com/watch?v=Ig706g1Hk14"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Extraordinary - The Stan Romanek Story",
+          "url": "https://www.youtube.com/watch?v=poUb2mMEdB8"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Australien Skies",
+          "url": "https://www.youtube.com/watch?v=1Znt7UqJSD4"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "O dia em que um OVNI caiu em Roswell",
+          "url": "https://www.youtube.com/watch?v=UxHcCtPmVT4"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-        }
-      ]
-    },
-    {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
-      "videos": [
-        {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-        },
-        {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-        },
-        {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
-        {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "NO MEIO DE NÓS",
+          "url": "https://www.youtube.com/watch?v=aDmP-NzNkIA"
         }
       ]
     },
     {
       "titulo": "Filmes",
       "cor": "orange",
+      "link_extra": {
+        "text": "Mais filmes aqui...",
+        "url": "https://www.youtube.com/watch?v=qY8eSRm-ACY"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Sinais (2002)",
+          "text": "Filmes relacionado a Ufologia",
+          "url": "https://www.youtube.com/watch?v=jAsU2GSy8B4"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "CAPEL GREEN - UFO Incident",
+          "url": "https://www.youtube.com/watch?v=F_l68Fzu6RY"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Arquivo X: Eu quero Acreditar",
+          "url": "https://www.youtube.com/watch?v=J7fRtgCpKXQ"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Trailer - Contatos de 4º Grau",
+          "url": "https://www.youtube.com/watch?v=xTAQ1gYy7qs"
+        }
+      ]
+    },
+    {
+      "titulo": "Animes",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Animes em tendência",
+        "url": "https://www.youtube.com/watch?v=NjJJ22IBHjU"
+      },
+      "videos": [
+        {
+          "titulo": "My Hero Academia",
+          "url": "https://www.youtube.com/watch?v=wIb3nnOeves"
+        },
+        {
+          "titulo": "Pokémon - liga indigo",
+          "url": "https://www.youtube.com/watch?v=-PlAg8R9TG4"
+        },
+        {
+          "titulo": "Fullmetal Alchemist Brotherhood",
+          "url": "https://www.youtube.com/watch?v=AKvvXKGzlOA"
+        },
+        {
+          "titulo": "Demon Slayer",
+          "url": "https://www.youtube.com/watch?v=pmanD_s7G3U"
+        },
+        {
+          "titulo": "One Punch Man",
+          "url": "https://www.youtube.com/watch?v=atxYe-nOa9w"
+        }
+      ]
+    },
+    {
+      "titulo": "Soundtrack Games - Nostalgia",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Trilha sonora dos jogos que marcaram sua infância",
+        "url": "https://www.youtube.com/watch?v=nnrXLfsf9Kc&list=PLHDadQGnsi4Ffg19klCrqcKdNwmwrt5Q-"
+      },
+      "videos": [
+        {
+        "titulo": "Donkey Kong Country 3",
+          "url": "https://www.youtube.com/watch?v=Vp50IEHtYfk"
+        },
+        {
+          "titulo": "Super Mario World 2: Yoshi's Island",
+          "url": "https://www.youtube.com/watch?v=oRxgYC5zrV4"
+        },
+        {
+          "titulo": "Full Mega Man X",
+          "url": "https://www.youtube.com/watch?v=tBWl9p0fH28"
+        },
+        {
+          "titulo": "Zelda Ocarina of Time",
+          "url": "https://www.youtube.com/watch?v=fRWs9J8kCxA"
         }
       ]
     },
@@ -125,59 +160,29 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Jogos recomendados para você",
+        "url": "https://www.youtube.com/watch?v=Nsut8VT2lZI"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Chrono Cross Opening",
+          "url": "https://www.youtube.com/watch?v=923fVDDwaHo"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Digimon world 3 Trailer",
+          "url": "https://www.youtube.com/watch?v=qRtL6yau3CI"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "The Legend of Zelda: Breath of the Wild",
+          "url": "https://www.youtube.com/watch?v=zw47_q9wbBE"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Final Fantasy Tactics",
+          "url": "https://www.youtube.com/watch?v=VMRrVVwjbGM"
         },
         {
           "titulo": "Pokémon Let's Go Pikachu/Eevee",
           "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
         }
       ]
     }
