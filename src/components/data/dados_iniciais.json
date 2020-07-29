@@ -3,7 +3,7 @@
     {
       "titulo": "Ufologia",
       "link": "https://pt.wikipedia.org/wiki/Ufologia",
-      "cor": "#6BD1FF",
+      "cor": "ff8642",
       "link_extra": {
         "text": "Saiba mais clicando aqui...",
         "url": "https://www.youtube.com/watch?v=BGHYBA5-euU&list=PLQtKWvsWFC-CgjsQyJdKU01rinWeXlTAo"
@@ -45,7 +45,7 @@
     },
     {
       "titulo": "Documentários",
-      "cor": "#00C86F",
+      "cor": "#c0362c",
       "link_extra": {
         "text": "Mais documentários aqui...",
         "url": "https://www.metropoles.com/entretenimento/cinema/documentario-que-comprova-vida-extraterrestre-bomba-no-youtube?amp"
@@ -75,7 +75,7 @@
     },
     {
       "titulo": "Filmes",
-      "cor": "orange",
+      "cor": "#e4b66d",
       "link_extra": {
         "text": "Mais filmes aqui...",
         "url": "https://www.youtube.com/watch?v=qY8eSRm-ACY"
@@ -102,7 +102,7 @@
     },
     {
       "titulo": "Animes",
-      "cor": "#6b5be2",
+      "cor": "#816c5b",
       "link_extra": {
         "text": "Animes em tendência",
         "url": "https://www.youtube.com/watch?v=NjJJ22IBHjU"
@@ -132,7 +132,7 @@
     },
     {
       "titulo": "Soundtrack Games - Nostalgia",
-      "cor": "#9cd33b",
+      "cor": "#68c546",
       "link_extra": {
         "text": "Trilha sonora dos jogos que marcaram sua infância",
         "url": "https://www.youtube.com/watch?v=nnrXLfsf9Kc&list=PLHDadQGnsi4Ffg19klCrqcKdNwmwrt5Q-"
@@ -158,7 +158,7 @@
     },
     {
       "titulo": "Games",
-      "cor": "red",
+      "cor": "#227819",
       "link_extra": {
         "text": "Jogos recomendados para você",
         "url": "https://www.youtube.com/watch?v=Nsut8VT2lZI"
