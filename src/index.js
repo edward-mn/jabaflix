@@ -8,9 +8,8 @@ import {
   Route, // As rotas ou caminhos que possuimos dentro da aplicação //
 } from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video'
-import CadastroCategoria from './pages/cadastro/Categorua';
-
-const Pagina404 = () => ( <div> Página 404 </div>)
+import CadastroCategoria from './pages/cadastro/Categoria';
+import Pagina404 from './pages/404'
 
 ReactDOM.render( 
   <BrowserRouter>
