@@ -1,5 +1,5 @@
 import React from 'react';
-import { CarouselContainer, VideoCardList, Title, ExtraLink } from './styles';
+import { CarouselContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
 // Exportando Default e também components dentro do projeto //
