@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Ufologia",
+      "descricao": "Saiba mais clicando aqui...",
+      "cor":  "ff8642"
+    },
+    {
+      "id": 2,
+      "nome": "Documentários",
+      "descricao": "Mais documentários clicando aqui...",
+      "cor": "#c0362c"
+    }
+  ]
+}

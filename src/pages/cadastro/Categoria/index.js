@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import PageDefault from '../../../components/PageDefault'
+import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
-import FormField from '../../../components/FormField'
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria(){
   const valoresIniciais = {
@@ -46,15 +47,15 @@ function CadastroCategoria(){
       }}>
 
       <FormField 
-        label=" Nome da categoria:"
-        type="text"
+        label=" Nome da categoria"
         name="nome"
         value={values.nome}
         onChange={handleChange}
       />
 
       <FormField 
-        label="Descrição:"
+        label="Descrição"
+        as='textarea'
         type="textarea"
         name="descricao"
         value={values.descricao}
@@ -62,22 +63,22 @@ function CadastroCategoria(){
       />
 
       <FormField 
-        label="Cor:"
-        type="color"
+        label="Cor"
+        type='color'
         name="cor"
         value={values.color}
         onChange={handleChange}
       />
 
-        <button>
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => {
+        {categorias.map((categoria) => {
           return(
-            <li key={`${categoria}${indice}`}>
+            <li key={`${categoria.nome}`}>
               {categoria.nome}
             </li>
           )
