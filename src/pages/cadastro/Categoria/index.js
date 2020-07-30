@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
@@ -31,6 +31,37 @@ function CadastroCategoria(){
       infosDoEvento.target.value
     );
   }
+
+  // Utilizar quando algum efeito colateral aconteça //
+  useEffect(() => { // 1 - O que queremos que aconteça, 2- Quando a gente quer que aconteça - opciontal em Array//
+    const URL = 'http://localhost:8080/categorias';
+    fetch(URL)
+      .then(async(respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  }, [] //Deixamos o array vazio, para ele entrar em ação apenas quando eftuarmos a ação do primeir parâmetro //
+
+   /*  setTimeout(() => {
+      setCategorias([
+        ...categorias,
+        {
+          "id": 1,
+          "nome": "Ufologia",
+          "descricao": "Saiba mais clicando aqui...",
+          "cor":  "ff8642"
+        },
+        {
+          "id": 2,
+          "nome": "Documentários",
+          "descricao": "Mais documentários clicando aqui...",
+          "cor": "#c0362c"
+        },
+      ]);
+    }, 4 * 100); */
+  );
 
   return(
     <PageDefault>
@@ -74,6 +105,12 @@ function CadastroCategoria(){
           Cadastrar
         </Button>
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => {
