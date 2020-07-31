@@ -34,7 +34,8 @@ function CadastroCategoria(){
 
   // Utilizar quando algum efeito colateral aconteça //
   useEffect(() => { // 1 - O que queremos que aconteça, 2- Quando a gente quer que aconteça - opciontal em Array//
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost') ?
+    'http://localhost:8080/categorias' : 'https://jabaflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async(respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
