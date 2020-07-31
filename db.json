@@ -3,14 +3,245 @@
     {
       "id": 1,
       "nome": "Ufologia",
-      "descricao": "Saiba mais clicando aqui...",
-      "cor":  "ff8642"
+      "cor":  "ff8642",
+      "link_extra": {
+        "text": "Saiba mais clicando aqui...",
+        "url": "https://www.youtube.com/watch?v=BGHYBA5-euU&list=PLQtKWvsWFC-CgjsQyJdKU01rinWeXlTAo"
+      }
     },
     {
       "id": 2,
       "nome": "Documentários",
-      "descricao": "Mais documentários clicando aqui...",
-      "cor": "#c0362c"
+      "cor": "#c0362c",
+      "link_extra": {
+        "text": "Mais documentários aqui...",
+        "url": "https://www.metropoles.com/entretenimento/cinema/documentario-que-comprova-vida-extraterrestre-bomba-no-youtube?amp"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Filmes",
+      "cor": "#e4b66d",
+      "link_extra": {
+        "text": "Mais filmes aqui...",
+        "url": "https://www.youtube.com/watch?v=qY8eSRm-ACY"
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Animes",
+      "cor": "#816c5b",
+      "link_extra": {
+        "text": "Animes em tendência",
+        "url": "https://www.youtube.com/watch?v=NjJJ22IBHjU"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Soundtrack Games - Nostalgia",
+      "cor": "#68c546",
+      "link_extra": {
+        "text": "Trilha sonora dos jogos que marcaram sua infância",
+        "url": "https://www.youtube.com/watch?v=nnrXLfsf9Kc&list=PLHDadQGnsi4Ffg19klCrqcKdNwmwrt5Q-"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Games",
+      "cor": "#227819",
+      "link_extra": {
+        "text": "Jogos recomendados para você",
+        "url": "https://www.youtube.com/watch?v=Nsut8VT2lZI"
+      }
     }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Os segredos mais surpreendentes da NASA | Segredos da NASA",
+      "url": "https://www.youtube.com/watch?v=BGHYBA5-euU&list=PLQtKWvsWFC-CgjsQyJdKU01rinWeXlTAo"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Flow Podcast #48 - EDISON BOAVENTURA (UFÓLOGO)",
+      "url": "https://www.youtube.com/watch?v=55pw5A8h1HU"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "O PRÓXIMO REINO - A História do Amanhã | DOCUMENTÁRIO",
+      "url": "https://www.youtube.com/watch?v=hoJg83xuvUM"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Ufologia - Todo Seu",
+      "url": "https://www.youtube.com/watch?v=KzyXOCWkSFI"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Trindade da Ufologia - The Noite",
+      "url": "https://www.youtube.com/watch?v=kYEJze6zy5s"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Entrevista com Giorgio Tsoukalos",
+      "url": "https://www.youtube.com/watch?v=erZ3EHA6EkE"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "ETS / ALIENÍGENAS - Nostalgia",
+      "url": "https://www.youtube.com/watch?v=TQvLdtZykQ4"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Aliens | Nerdologia",
+      "url": "https://www.youtube.com/watch?v=8r1nJtM2IPo"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Bob Lazar: Area 51 And Flying Saucers",
+      "url": "https://www.youtube.com/watch?v=Ig706g1Hk14"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Extraordinary - The Stan Romanek Story",
+      "url": "https://www.youtube.com/watch?v=poUb2mMEdB8"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Australien Skies",
+      "url": "https://www.youtube.com/watch?v=1Znt7UqJSD4"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "O dia em que um OVNI caiu em Roswell",
+      "url": "https://www.youtube.com/watch?v=UxHcCtPmVT4"
+    }, 
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "NO MEIO DE NÓS",
+      "url": "https://www.youtube.com/watch?v=aDmP-NzNkIA"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Sinais (2002)",
+      "text": "Filmes relacionado a Ufologia",
+      "url": "https://www.youtube.com/watch?v=jAsU2GSy8B4"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "CAPEL GREEN - UFO Incident",
+      "url": "https://www.youtube.com/watch?v=F_l68Fzu6RY"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Arquivo X: Eu quero Acreditar",
+      "url": "https://www.youtube.com/watch?v=J7fRtgCpKXQ"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Trailer - Contatos de 4º Grau",
+      "url": "https://www.youtube.com/watch?v=xTAQ1gYy7qs"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "My Hero Academia",
+      "url": "https://www.youtube.com/watch?v=wIb3nnOeves"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Pokémon - liga indigo",
+      "url": "https://www.youtube.com/watch?v=-PlAg8R9TG4"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Fullmetal Alchemist Brotherhood",
+      "url": "https://www.youtube.com/watch?v=AKvvXKGzlOA"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Demon Slayer",
+      "url": "https://www.youtube.com/watch?v=pmanD_s7G3U"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "One Punch Man",
+      "url": "https://www.youtube.com/watch?v=atxYe-nOa9w"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Donkey Kong Country 3",
+        "url": "https://www.youtube.com/watch?v=Vp50IEHtYfk"
+      },
+      {
+        "id": 24,
+        "categoriaId": 5,
+        "titulo": "Super Mario World 2: Yoshi's Island",
+        "url": "https://www.youtube.com/watch?v=oRxgYC5zrV4"
+      },
+      {
+        "id": 25,
+        "categoriaId": 5,
+        "titulo": "Full Mega Man X",
+        "url": "https://www.youtube.com/watch?v=tBWl9p0fH28"
+      },
+      {
+        "id": 26,
+        "categoriaId": 5,
+        "titulo": "Zelda Ocarina of Time",
+        "url": "https://www.youtube.com/watch?v=fRWs9J8kCxA"
+      },
+      {
+        "id": 27,
+        "categoriaId": 6,
+        "titulo": "Chrono Cross Opening",
+        "url": "https://www.youtube.com/watch?v=923fVDDwaHo"
+      },
+      {
+        "id": 28,
+        "categoriaId": 6,
+        "titulo": "Digimon world 3 Trailer",
+        "url": "https://www.youtube.com/watch?v=qRtL6yau3CI"
+      },
+      {
+        "id": 29,
+        "categoriaId": 6,
+        "titulo": "The Legend of Zelda: Breath of the Wild",
+        "url": "https://www.youtube.com/watch?v=zw47_q9wbBE"
+      },
+      {
+        "id": 30,
+        "categoriaId": 6,
+        "titulo": "Final Fantasy Tactics",
+        "url": "https://www.youtube.com/watch?v=VMRrVVwjbGM"
+      },
+      {
+        "id": 31,
+        "categoriaId": 6,
+        "titulo": "Pokémon Let's Go Pikachu/Eevee",
+        "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+      }
   ]
 }

@@ -3,6 +3,7 @@ import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm'
 
 function CadastroCategoria(){
   const valoresIniciais = {
@@ -11,26 +12,11 @@ function CadastroCategoria(){
     cor: '',
   }
 
+  const { values, handleChange, clearForm } = useForm(valoresIniciais)
+
   const [categorias, setCategorias] = useState([]);
   // Colocamos a var entre colchetes para abrir o array que vem do useState //
-  const [values, setValues] = useState(valoresIniciais); // Definindo uma categoria padrão //
-
-
-  function setValue(chave, valor){
-    // chave: nome, descrição, senha ... //
-    setValues({
-      ...values,
-      [chave]: valor, // Define o valor da chave dinâmicamente - nome: 'valor //
-    })
-  }
-
-  function handleChange(infosDoEvento){
-    /* const {getAttribute, value = infosDoEvento.target; - novamente abrindo as informações que estão vindo */
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value
-    );
-  }
+  
 
   // Utilizar quando algum efeito colateral aconteça //
   useEffect(() => { // 1 - O que queremos que aconteça, 2- Quando a gente quer que aconteça - opciontal em Array//
@@ -75,7 +61,7 @@ function CadastroCategoria(){
           values
         ]); // ... = Pegas as informações e adiciona nessa nova lista que estamos criando //
 
-        setValues(valoresIniciais);
+        clearForm();
       }}>
 
       <FormField 

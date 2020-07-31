@@ -1,21 +1,24 @@
 import React from 'react';
+import styled, { css } from 'styled-components';
 import Footer from '../Footer';
 import Menu from '../Menu';
-import styled from 'styled-components';
 
 const Main = styled.main`
   background-color: var(--black);
   color: var(--white);
   flex: 1;
   padding: 50px 5% 0 5%;
+  ${({ paddingAll }) => css`
+    padding: ${paddingAll};
+  `}
 `
 
 // Acessando a propriedade children diretamente - props.children //
-function PageDefault({ children }){
+function PageDefault({ children, paddingAll }){
   return(
     <>
       <Menu />
-        <Main>
+        <Main paddingAll={paddingAll}>
           {children}
         </Main>
       <Footer />
