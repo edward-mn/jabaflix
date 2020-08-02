@@ -2,7 +2,7 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Ufologia",
+      "titulo": "Ufologia",
       "cor": "ff8642",
       "descricao": "UFO",
       "link_extra": {
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "nome": "Documentários",
+      "titulo": "Documentários",
       "cor": "#c0362c",
       "descricao": "DOC",
       "link_extra": {
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "nome": "Filmes",
+      "titulo": "Filmes",
       "cor": "#e4b66d",
       "descricao": "Movie",
       "link_extra": {
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "nome": "Animes",
+      "titulo": "Animes",
       "cor": "#816c5b",
       "descricao": "Cartoon",
       "link_extra": {
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "nome": "Soundtrack Games - Nostalgia",
+      "titulo": "Soundtrack Games - Nostalgia",
       "cor": "#68c546",
       "descricao": "Music",
       "link_extra": {
@@ -52,7 +52,7 @@
     },
     {
       "id": 6,
-      "nome": "Games",
+      "titulo": "Games",
       "cor": "#227819",
       "descricao": "Play",
       "link_extra": {
@@ -248,24 +248,6 @@
       "categoriaId": 6,
       "titulo": "Pokémon Let's Go Pikachu/Eevee",
       "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-    },
-    {
-      "titulo": "Vídeo  padrão",
-      "url": "https://www.youtube.com/watch?time_continue=3104&v=hhQ3RtvmfEg&feature=emb_logo",
-      "categoria": 1,
-      "id": 32
-    },
-    {
-      "titulo": "Teste",
-      "url": "https://www.youtube.com/watch?time_continue=3104&v=hhQ3RtvmfEg&feature=emb_logo",
-      "categoria": 1,
-      "id": 33
-    },
-    {
-      "nome": "1",
-      "url": "https://www.youtube.com/watch?time_continue=3104&v=hhQ3RtvmfEg&feature=emb_logo",
-      "categoria": 1,
-      "id": 34
     }
   ]
 }

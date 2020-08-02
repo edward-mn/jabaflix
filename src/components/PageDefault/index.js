@@ -11,16 +11,16 @@ const Main = styled.main`
   ${({ paddingAll }) => css`
     padding: ${paddingAll};
   `}
-`
+`;
 
 // Acessando a propriedade children diretamente - props.children //
-function PageDefault({ children, paddingAll }){
-  return(
+function PageDefault({ children, paddingAll }) {
+  return (
     <>
       <Menu />
-        <Main paddingAll={paddingAll}>
-          {children}
-        </Main>
+      <Main paddingAll={paddingAll}>
+        {children}
+      </Main>
       <Footer />
     </>
   );

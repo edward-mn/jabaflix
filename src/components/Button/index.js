@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 // Acessando a tag a através da sytle  - Tag button está em tag de templete string - & utiliza para referencias a própria classe //
 
@@ -23,6 +23,6 @@ const Button = styled.button`
   &:focus {
   opacity: .5;
   }
-`
+`;
 
 export default Button;
