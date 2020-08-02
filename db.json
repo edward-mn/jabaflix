@@ -3,7 +3,8 @@
     {
       "id": 1,
       "nome": "Ufologia",
-      "cor":  "ff8642",
+      "cor": "ff8642",
+      "descricao": "UFO",
       "link_extra": {
         "text": "Saiba mais clicando aqui...",
         "url": "https://www.youtube.com/watch?v=BGHYBA5-euU&list=PLQtKWvsWFC-CgjsQyJdKU01rinWeXlTAo"
@@ -13,6 +14,7 @@
       "id": 2,
       "nome": "Documentários",
       "cor": "#c0362c",
+      "descricao": "DOC",
       "link_extra": {
         "text": "Mais documentários aqui...",
         "url": "https://www.metropoles.com/entretenimento/cinema/documentario-que-comprova-vida-extraterrestre-bomba-no-youtube?amp"
@@ -22,6 +24,7 @@
       "id": 3,
       "nome": "Filmes",
       "cor": "#e4b66d",
+      "descricao": "Movie",
       "link_extra": {
         "text": "Mais filmes aqui...",
         "url": "https://www.youtube.com/watch?v=qY8eSRm-ACY"
@@ -31,6 +34,7 @@
       "id": 4,
       "nome": "Animes",
       "cor": "#816c5b",
+      "descricao": "Cartoon",
       "link_extra": {
         "text": "Animes em tendência",
         "url": "https://www.youtube.com/watch?v=NjJJ22IBHjU"
@@ -40,6 +44,7 @@
       "id": 5,
       "nome": "Soundtrack Games - Nostalgia",
       "cor": "#68c546",
+      "descricao": "Music",
       "link_extra": {
         "text": "Trilha sonora dos jogos que marcaram sua infância",
         "url": "https://www.youtube.com/watch?v=nnrXLfsf9Kc&list=PLHDadQGnsi4Ffg19klCrqcKdNwmwrt5Q-"
@@ -49,6 +54,7 @@
       "id": 6,
       "nome": "Games",
       "cor": "#227819",
+      "descricao": "Play",
       "link_extra": {
         "text": "Jogos recomendados para você",
         "url": "https://www.youtube.com/watch?v=Nsut8VT2lZI"
@@ -127,7 +133,7 @@
       "categoriaId": 2,
       "titulo": "O dia em que um OVNI caiu em Roswell",
       "url": "https://www.youtube.com/watch?v=UxHcCtPmVT4"
-    }, 
+    },
     {
       "id": 13,
       "categoriaId": 2,
@@ -193,55 +199,73 @@
       "id": 23,
       "categoriaId": 5,
       "titulo": "Donkey Kong Country 3",
-        "url": "https://www.youtube.com/watch?v=Vp50IEHtYfk"
-      },
-      {
-        "id": 24,
-        "categoriaId": 5,
-        "titulo": "Super Mario World 2: Yoshi's Island",
-        "url": "https://www.youtube.com/watch?v=oRxgYC5zrV4"
-      },
-      {
-        "id": 25,
-        "categoriaId": 5,
-        "titulo": "Full Mega Man X",
-        "url": "https://www.youtube.com/watch?v=tBWl9p0fH28"
-      },
-      {
-        "id": 26,
-        "categoriaId": 5,
-        "titulo": "Zelda Ocarina of Time",
-        "url": "https://www.youtube.com/watch?v=fRWs9J8kCxA"
-      },
-      {
-        "id": 27,
-        "categoriaId": 6,
-        "titulo": "Chrono Cross Opening",
-        "url": "https://www.youtube.com/watch?v=923fVDDwaHo"
-      },
-      {
-        "id": 28,
-        "categoriaId": 6,
-        "titulo": "Digimon world 3 Trailer",
-        "url": "https://www.youtube.com/watch?v=qRtL6yau3CI"
-      },
-      {
-        "id": 29,
-        "categoriaId": 6,
-        "titulo": "The Legend of Zelda: Breath of the Wild",
-        "url": "https://www.youtube.com/watch?v=zw47_q9wbBE"
-      },
-      {
-        "id": 30,
-        "categoriaId": 6,
-        "titulo": "Final Fantasy Tactics",
-        "url": "https://www.youtube.com/watch?v=VMRrVVwjbGM"
-      },
-      {
-        "id": 31,
-        "categoriaId": 6,
-        "titulo": "Pokémon Let's Go Pikachu/Eevee",
-        "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-      }
+      "url": "https://www.youtube.com/watch?v=Vp50IEHtYfk"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Super Mario World 2: Yoshi's Island",
+      "url": "https://www.youtube.com/watch?v=oRxgYC5zrV4"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Full Mega Man X",
+      "url": "https://www.youtube.com/watch?v=tBWl9p0fH28"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Zelda Ocarina of Time",
+      "url": "https://www.youtube.com/watch?v=fRWs9J8kCxA"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Chrono Cross Opening",
+      "url": "https://www.youtube.com/watch?v=923fVDDwaHo"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Digimon world 3 Trailer",
+      "url": "https://www.youtube.com/watch?v=qRtL6yau3CI"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "url": "https://www.youtube.com/watch?v=zw47_q9wbBE"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Final Fantasy Tactics",
+      "url": "https://www.youtube.com/watch?v=VMRrVVwjbGM"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Pokémon Let's Go Pikachu/Eevee",
+      "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+    },
+    {
+      "titulo": "Vídeo  padrão",
+      "url": "https://www.youtube.com/watch?time_continue=3104&v=hhQ3RtvmfEg&feature=emb_logo",
+      "categoria": 1,
+      "id": 32
+    },
+    {
+      "titulo": "Teste",
+      "url": "https://www.youtube.com/watch?time_continue=3104&v=hhQ3RtvmfEg&feature=emb_logo",
+      "categoria": 1,
+      "id": 33
+    },
+    {
+      "nome": "1",
+      "url": "https://www.youtube.com/watch?time_continue=3104&v=hhQ3RtvmfEg&feature=emb_logo",
+      "categoria": 1,
+      "id": 34
+    }
   ]
 }
