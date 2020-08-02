@@ -1,17 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 import Page404 from '../../assets/img/page404animation.gif';
+import PageDefault from '../../components/PageDefault';
 
-function Pagina404(){
-  return(
-    <>
-      <Link to ="/">
-        Ir para home
-      </Link>
+const Img = styled.img`
+  width: 100%;
+`;
 
-      <img className="Page404" src={Page404} alt="Page not fout" />
-    </>
-  )
+function Pagina404() {
+  return (
+    <PageDefault paddingAll={0}>
+      <Img className="Page404" src={Page404} alt="Page not fout" />
+    </PageDefault>
+  );
 }
 
 export default Pagina404;
