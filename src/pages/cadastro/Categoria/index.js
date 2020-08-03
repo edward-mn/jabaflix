@@ -30,7 +30,6 @@ function CadastroCategoria() {
         ]);
       });
   }, [], // Deixamos o array vazio, para ele entrar em ação apenas quando eftuarmos a ação do primeir parâmetro //
-
     /*  setTimeout(() => {
       setCategorias([
         ...categorias,
@@ -112,7 +111,9 @@ function CadastroCategoria() {
       </ul>
 
       <Link to="/">
-        Ir para home
+        <Button>
+          Ir para Home
+        </Button>
       </Link>
     </PageDefault>
   );

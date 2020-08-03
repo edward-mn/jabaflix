@@ -29,4 +29,5 @@ function getAllWithVideos() {
 export default {
   getAllWithVideos,
   getAll,
+  URL_CATEGORIES,
 };
