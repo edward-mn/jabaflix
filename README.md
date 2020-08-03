@@ -1,5 +1,7 @@
 # Jabaflix
 
+[![Série](https://img.shields.io/badge/Edward-Jabaflix-red)](https://jabaflix.netlify.app/)
+[![language-framework](https://img.shields.io/badge/JavaScritp-React-aqua.svg)](https://pt-br.reactjs.org/)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/imersao-alura/aluraflix/blob/master/LICENSE)
 
 O aplicativo desenvolvido na imersão React da [Alura](http://alura.com.br/), tem como principal intuito reproduzir as funcionalidades da [Netflix](https://www.netflix.com/br/), ou seja, nele será possível:
