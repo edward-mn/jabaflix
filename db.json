@@ -248,6 +248,12 @@
       "categoriaId": 6,
       "titulo": "Pokémon Let's Go Pikachu/Eevee",
       "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+    },
+    {
+      "titulo": "Teste novo vídeo",
+      "url": "https://www.youtube.com/watch?v=SrlPyKxdMX4",
+      "categoriaId": 3,
+      "id": 32
     }
   ]
 }
