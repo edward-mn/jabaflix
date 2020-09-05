@@ -1,8 +1,6 @@
 <p align="center">  
- <img src="./github/logo-jabaflix.png" align="center">
-</p>
----
-<p align="center">  
+  <img src="./github/logo-jabaflix.png" align="center">
+  <br>
   <a href="https://jabaflix.netlify.app/">
     <img src= "https://img.shields.io/badge/Edward-Jabaflix-red">
   </a>
@@ -13,7 +11,7 @@
     <img src= "https://img.shields.io/badge/licence-MIT-blue.svg">
   </a>
  </p>
-
+ 
 O aplicativo desenvolvido na imersão React da [Alura](http://alura.com.br/), tem como principal intuito reproduzir as funcionalidades da [Netflix](https://www.netflix.com/br/), ou seja, nele será possível:
 - Cadastrar novas categorias ⚠
 - Adicionar novos vídeos ✅
