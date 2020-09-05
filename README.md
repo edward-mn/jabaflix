@@ -1,14 +1,17 @@
-# Jabaflix
- <p align="center">
-   <a href="https://jabaflix.netlify.app/">
-     <img src= "https://img.shields.io/badge/Edward-Jabaflix-red">
-   </a>
-   <a href="https://pt-br.reactjs.org/">
-     <img src= "https://img.shields.io/badge/JavaScritp-React-aqua.svg">
-   </a>
-   <a href="https://github.com/imersao-alura/aluraflix/blob/master/LICENSE">
-     <img src= "https://img.shields.io/badge/licence-MIT-blue.svg">
-   </a>
+<p align="center">  
+ <img src="./github/logo-jabaflix.png" align="center">
+</p>
+---
+<p align="center">  
+  <a href="https://jabaflix.netlify.app/">
+    <img src= "https://img.shields.io/badge/Edward-Jabaflix-red">
+  </a>
+  <a href="https://pt-br.reactjs.org/">
+    <img src= "https://img.shields.io/badge/Imersão-React-aqua.svg">
+  </a>
+  <a href="https://github.com/imersao-alura/aluraflix/blob/master/LICENSE">
+    <img src= "https://img.shields.io/badge/licence-MIT-blue.svg">
+  </a>
  </p>
 
 O aplicativo desenvolvido na imersão React da [Alura](http://alura.com.br/), tem como principal intuito reproduzir as funcionalidades da [Netflix](https://www.netflix.com/br/), ou seja, nele será possível:
